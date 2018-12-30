@@ -1,0 +1,94 @@
+<!--
+  Generated template for the KısıselBılgılerPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar >
+  
+    <ion-title>Kişisel Bilgiler</ion-title>
+    
+        
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding="true" class="has-header" class="bg">
+    <img *ngIf="image" [src]="image" alt="">
+ <ion-footer>
+   <ion-grid>
+     
+      
+
+      
+       
+      
+   </ion-grid>
+ </ion-footer>
+  <h1 id="kiIselBilgiler-heading3" style="color:rgb(0, 0, 0);">Kişisel Bilgiler</h1>
+  <h5 id="kiIselBilgiler-heading4" style="color:#000000;font-weight:600;text-align:justify;">Ad-Soyad</h5>
+  <form id="kiIselBilgiler-form5" class="list">
+    <label class="item item-input" id="kiIselBilgiler-input7">
+      <input type="text" placeholder="">
+    </label>
+    <h5 id="kiIselBilgiler-heading6" style="color:#000000;font-weight:600;">Cinsiyet</h5>
+    <label class="item item-input" id="kiIselBilgiler-input5">
+      <input type="text" placeholder="">
+    </label>
+    <h5 id="kiIselBilgiler-heading7" style="color:#000000;font-weight:600;">Doğum Tarihi</h5>
+    <label class="item item-input" id="kiIselBilgiler-input6">
+      <input type="date" placeholder="">
+    </label>
+    <h5 id="kiIselBilgiler-heading9" style="color:#000000;font-weight:600;">Medeni Durum</h5>
+    <label class="item item-input" id="kiIselBilgiler-input4">
+      <input type="text" placeholder="">
+    </label>
+    <h5 id="kiIselBilgiler-heading10" style="color:#000000;font-weight:600;">Askerlik Durumu</h5>
+    <label class="item item-input" id="kiIselBilgiler-input8">
+      <input type="text" placeholder="">
+    </label>
+    <h5 id="kiIselBilgiler-heading11" style="color:#000000;font-weight:600;">Sürücü Belgesi</h5>
+    <label class="item item-input" id="kiIselBilgiler-input10">
+      <input type="text" placeholder="">
+    </label>
+    <h5 id="kiIselBilgiler-heading12" style="color:#000000;font-weight:600;">Uyruk</h5>
+    <label class="item item-input" id="kiIselBilgiler-input9">
+      <input type="text" placeholder="">
+    </label>
+    <h5 id="kiIselBilgiler-heading8" style="color:#000000;font-weight:600;">Adres </h5>
+  </form>
+  <form id="kiIselBilgiler-form20" class="list">
+    <label class="item item-input" id="kiIselBilgiler-input11">
+      <input type="tel" placeholder="">
+    </label>
+  </form>
+  <h5 id="kiIselBilgiler-heading5" style="color:#000000;"></h5>
+  <h5 id="kiIselBilgiler-heading13" style="color:#000000;font-weight:600;">Telefon</h5>
+  <form id="kiIselBilgiler-form11" class="list">
+    <label class="item item-input" id="kiIselBilgiler-input12">
+      <input type="text" placeholder="">
+    </label>
+  </form>
+  <h5 id="kiIselBilgiler-heading14" style="color:#000000;font-weight:600;">E-mail</h5>
+  <form id="kiIselBilgiler-form12" class="list">
+    <label class="item item-input" id="kiIselBilgiler-input13">
+      <input type="email" placeholder="@.....com">
+    </label>
+  </form>
+  <a ui-sref="Bul2()" id="kiIselBilgiler-button7"  ion-button full (click)="goOnay2() ">ONAYLA</a>
+  <a ui-sref="anaSayfa()" id="kiIselBilgiler-button8"  ion-button color="danger" class="button button-light button-block" (click)="goCik()"> ÇIK</a>
+
+  <button ion-button icon-only (click)="pictureFromCamera()" >
+      <ion-icon name="camera"></ion-icon>
+      </button>
+            
+      <button ion-button icon-only (click)="pictureFromGallery()" >
+          <ion-icon name="image"></ion-icon>
+        </button>
+       
+        
+</ion-content>
+

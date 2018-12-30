@@ -1,0 +1,63 @@
+ 
+  
+
+ <ion-content padding class="bg"> 
+  
+  <div imgs-center >
+     
+    <img src="assets/imgs/adsız4.jpg" style="display:block;width:150px;height:150px;margin-left: auto; margin-right: auto;">
+  </div>
+     
+ <ion-list>
+    
+    
+ </ion-list>
+ 
+ <button ion-button round="Light"(click)="goUye()">Üye misiniz?</button>
+ <button ion-button round="Light"(click)="goUye2()">Üye ol</button>
+ <ion-item>
+    <ion-label >Kategoriler</ion-label>
+    <ion-select [(ngModel)]="Kategoriler">
+      <ion-option    value="bt">Bilişim/Telekom</ion-option>
+      <ion-option value="bs">Banka/Sigorta</ion-option>
+      <ion-option value="eö">Eğitim/Öğretim</ion-option>
+      <ion-option value="ha">Hukuk/Avukat</ion-option>
+      <ion-option value="mp">Mağaza/Perakende</ion-option>
+      <ion-option value="mf">Muhasebe/Finans</ion-option>
+      <ion-option value="sğl">Sağlık</ion-option>
+      <ion-option value="skya">Sekreter/Yönetici Asitan</ion-option>
+      <ion-option value="ymi">Yapı/Mimar/İnşaat</ion-option>
+     
+      
+    </ion-select>
+   
+  </ion-item>
+ 
+  <ion-item>
+      <ion-range [(ngModel)]="brightness">
+        <ion-icon range-left small name="range" > Maaş Aralığı</ion-icon>
+        <ion-icon range-right name="range"></ion-icon>
+      </ion-range>
+    </ion-item>
+    
+    <ion-list>
+        <ion-item>
+          <ion-label>Çalışma Şekli</ion-label>
+          <ion-select [(ngModel)]="calismasekli">
+            <ion-option value="nes">Tam Zamanlı</ion-option>
+            <ion-option value="n64">Yarı Zamanlı</ion-option>
+            <ion-option value="ps">Dönemsel</ion-option>
+            <ion-option value="genesis">Stajyer</ion-option>
+            
+            
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      
+   
+        <button ion-button round ion-button color="default" (click)="goIlan()">Bul</button>
+     
+  
+
+
+</ion-content>

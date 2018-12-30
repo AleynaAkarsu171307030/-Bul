@@ -1,0 +1,14 @@
+$stable: #4747CC;
+$dark: #000000;
+$positive: #4747CC;
+$calm: #2C92AF;
+$balanced: #3E5B97;
+$energized: #E7DDB5;
+$assertive: #2C53B2;
+$royal: #3F1EAB;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+ion-view,.pane,.view {
+	background-color:linear-gradient(to bottom, blue 0%, white 100%);
+}
+
